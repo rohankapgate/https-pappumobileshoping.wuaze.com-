@@ -1,0 +1,33 @@
+*{
+  font-family: 'times new roman',sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ 
+.underline{
+    height: 8px;
+    width: 150px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.socail-links a{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #373737;
+    color: white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    transition: 0.5s ease;
+}
+.socail-links a:hover{
+    background-color: #ffc800;
+    color: white;
+}
